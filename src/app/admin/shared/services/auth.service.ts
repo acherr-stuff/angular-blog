@@ -8,7 +8,7 @@ import { DatePipe } from "@angular/common";
 import { toBase64String } from "@angular/compiler/src/output/source_map";
 
 @Injectable(
-
+    {providedIn: 'root'}
 )
 
 export class AuthService {
